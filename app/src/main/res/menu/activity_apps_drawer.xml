@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:title="KFUEIT Home" />
+        <item
+            android:id="@+id/time_table"
+            android:title="View Time Table" />
+        <item
+            android:id="@+id/my_kfueit"
+            android:title="My Kfueit Dashboard" />
+        <item
+            android:id="@+id/merit_lists"
+            android:title="Merit Lists" />
+        <item
+            android:id="@+id/latest_news"
+            android:title="Latest News" />
+    </group>
+
+</menu>
